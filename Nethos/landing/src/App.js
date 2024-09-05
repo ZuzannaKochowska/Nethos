@@ -2,6 +2,7 @@
 import './App.css';
 import { Headline } from './Headline';
 import { Services } from './Services';
+import { Why } from './Why';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       
       <Headline />
       <Services />
+      <Why />
     </div>
   );
 }

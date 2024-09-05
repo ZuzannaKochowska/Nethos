@@ -1,0 +1,35 @@
+.logo {
+    width: 300px;
+    height: 100px;
+}
+.tekst {
+    /* Wyśrodkowanie tekstu w poziomie */
+    text-align: center;
+    color:#4a4a4a;
+    font-family: Verdana, sans-serif;
+    
+    /* Wyśrodkowanie w pionie i poziomie */
+    display: flex;
+    justify-content: center;  /* Wyśrodkowanie poziome */
+    align-items: center;      /* Wyśrodkowanie pionowe */
+    
+    /* Ustawienia kontenera */
+    height: 50vh;            /* Wysokość pełnego ekranu (opcjonalnie) */
+    padding: 0 20px;          /* Ograniczenie do responsywnej przestrzeni */
+  
+    /* Responsywność */
+    font-size: 1.4rem;        /* Wielkość czcionki responsywna */
+    line-height: 1.5;         /* Wysokość linii */
+    max-width: 830px;         /* Maksymalna szerokość tekstu */
+    
+    /* Dodaj margines do wyrównania wewnętrznego */
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .tekst {
+      font-size: 1.2rem;      /* Mniejsza czcionka dla urządzeń mobilnych */
+    }
+  }
+  
+

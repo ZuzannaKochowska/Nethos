@@ -1,0 +1,65 @@
+.naglowek {
+    font-size: 17px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.podnaglowek {
+    font-size: 15px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.aboutus {
+    display: flex;
+    padding-top: 30px
+}
+.onas {
+    font-size: 24px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+@media (max-width: 768px) {
+.aboutus {
+    flex-direction: column;
+
+}}
+.obrazek {
+    width: 650px;
+    height: 350px;
+}
+@media (max-width: 768px) {
+    .obrazek {
+      flex-direction: column;  
+    }
+  }
+.pracownicy {
+    display: flex;
+    justify-content:center;  /* Przestrzeń między kolumnami */
+    gap: 20px;                       /* Odstęp między kolumnami */
+    padding: 20px; 
+}
+.pracownik {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;  /* Ułóż zawartość pracownika pionowo */
+    align-items: center;       
+    padding: 20px;                  
+    background-color: #ffffff;
+    border-radius: 18px;              
+    color: white;
+    -webkit-box-shadow: 0px 0px 25px -6px rgba(66, 68, 90, 0.45);
+    -moz-box-shadow: 0px 0px 25px -6px rgba(66, 68, 90, 0.45);
+    box-shadow: 0px 0px 25px -6px rgba(66, 68, 90, 0.45);
+}
+@media (max-width: 768px) {
+    .pracownicy {
+      flex-direction: column;        /* Kolumny stają się wierszami na małych ekranach */
+    }
+  }
+  .name {
+  font-size: 0.8rem;            /* Rozmiar czcionki */
+  font-weight: bold;           /* Pogrubienie imienia */
+  margin-top: 10px;             /* Odstęp nad imieniem */
+  color: #333; 
+  flex-direction: column;
+  text-align: center;
+}

@@ -23,18 +23,23 @@
 
 }}
 .obrazek {
-    width: 650px;
-    height: 350px;
+    width: 50vw;
+    height: 20vw;
 }
 @media (max-width: 768px) {
     .obrazek {
       flex-direction: column;  
     }
   }
+  @media (max-width: 480px) {
+    .obrazek {
+      flex-direction: column;  
+    }
+  }
 .pracownicy {
     display: flex;
-    justify-content:center;  /* Przestrzeń między kolumnami */
-    gap: 20px;                       /* Odstęp między kolumnami */
+    justify-content:center;  
+    gap: 20px;                       
     padding: 20px; 
 }
 .pracownik {
@@ -63,3 +68,4 @@
   flex-direction: column;
   text-align: center;
 }
+

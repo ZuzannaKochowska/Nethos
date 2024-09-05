@@ -5,6 +5,18 @@
     color: #98BE13;
     margin-top: 50px;
 }
+@media(max-width: 768px) {
+    .why {
+        font-size: 5.0vw;
+        
+    }
+}
+@media(max-width: 480px) {
+    .why {
+        font-size: 7.0vw;
+
+    }
+}
 .lista {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display:block;
@@ -13,13 +25,19 @@
     border-radius: 8px;              /* Zaokrąglone rogi */
     color: white;
 }
+.button-container {
+    display: flex;
+    justify-content: center;  /* Wyśrodkowanie w poziomie */
+    align-items: center;      /* Wyśrodkowanie w pionie */
+    height: 10vh;            /* Sprawia, że kontener zajmuje pełną wysokość okna */
+}
 .button {
-    display:block;
-    justify-content: center;
-    background-color:#98BE13;
+    background-color: #98BE13;
     color: white;
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px;
-    
+    border: none;
+    border-radius: 8px;   /* Zaokrąglone rogi przycisku */
+    cursor: pointer;
 }

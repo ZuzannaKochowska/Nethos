@@ -1,0 +1,47 @@
+.klienci {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.clients {
+    display: flex;
+    justify-content:center;  
+    gap: 20px;                       
+    padding: 20px;
+
+}
+.client {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    font-style: italic;
+    text-align: justify;
+    flex-direction: column;  /* Ułóż zawartość pracownika pionowo */
+    align-items: center;       
+    padding: 40px 40px 0px 40px;                  
+    background-color: #ffffff;
+    border-radius: 18px;              
+    color: #000000;
+    -webkit-box-shadow: 0px 0px 25px -6px rgba(66, 68, 90, 0.45);
+    -moz-box-shadow: 0px 0px 25px -6px rgba(66, 68, 90, 0.45);
+    box-shadow: 0px 0px 25px -6px rgba(66, 68, 90, 0.45);
+}
+.polecenie {
+    width: 10vw;
+    height: 10vw;
+}
+.button-container {
+    display: flex;
+    justify-content: center;  /* Wyśrodkowanie w poziomie */
+    align-items: center;      /* Wyśrodkowanie w pionie */
+    height: 10vh;            /* Sprawia, że kontener zajmuje pełną wysokość okna */
+}
+.button {
+    background-color: #98BE13;
+    color: white;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;   /* Zaokrąglone rogi przycisku */
+    cursor: pointer;
+}

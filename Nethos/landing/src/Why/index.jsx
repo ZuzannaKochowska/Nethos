@@ -15,7 +15,8 @@ export function Why() {
         <li>Bezpieczeństwo danych</li>
         </div>
 
+       <div className='button-container'> 
         <button className="button">Napisz do nas!</button>
-        </div>
+       </div></div>
     )
 }

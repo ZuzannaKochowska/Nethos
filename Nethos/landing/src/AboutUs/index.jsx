@@ -9,7 +9,7 @@ export function About() {
         <div>
             <div className="aboutus">
             <img src={obrazek} className="obrazek" alt="obrazek"></img>
-            <div className="onas">O nas:
+            <div className="onas">
             <div className="naglowek">Nasza misja:</div>
             <div className="podnaglowek">Naszą misją jest dostarczanie klientom niezawodnych i innowacyjnych rozwiązań IT, które wspierają ich rozwój oraz umożliwiają skuteczne wdrażanie nowoczesnych technologii. Dążymy do tego, aby poprzez konsulting i doradztwo IT pomagać firmom w optymalizacji procesów biznesowych oraz osiąganiu celów strategicznych.</div>
             <div className="naglowek">Nasza wizja:</div>

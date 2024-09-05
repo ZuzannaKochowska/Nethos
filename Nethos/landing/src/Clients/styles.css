@@ -25,9 +25,31 @@
     -moz-box-shadow: 0px 0px 25px -6px rgba(66, 68, 90, 0.45);
     box-shadow: 0px 0px 25px -6px rgba(66, 68, 90, 0.45);
 }
+@media(max-width: 768px) {
+    .client {
+        flex-direction: column;
+    }
+}
+@media(max-width: 480px) {
+    .client {
+        flex-direction: column;
+    }
+}
 .polecenie {
     width: 10vw;
     height: 10vw;
+}
+@media(max-width: 768px) {
+    .polecenie {
+        width:30vw;
+        height:30vw;
+    }
+}
+@media(max-width: 480px) {
+    .polecenie {
+        width:30vw;
+        height:30vw;
+    }
 }
 .button-container {
     display: flex;
@@ -44,4 +66,9 @@
     border: none;
     border-radius: 8px;   /* Zaokrąglone rogi przycisku */
     cursor: pointer;
+}
+.button:hover {
+    background-color: #009FE3;  /* Zmiana koloru tła przy najechaniu */
+    transform: scale(1.05);     /* Delikatne powiększenie przycisku */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Cień przy hover */
 }

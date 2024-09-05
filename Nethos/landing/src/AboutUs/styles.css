@@ -2,10 +2,13 @@
     font-size: 17px;
     font-family:  Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
+    padding-left: 20px;
+    
 }
 .podnaglowek {
     font-size: 15px;
     font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
 
 }
 .aboutus {
@@ -15,7 +18,7 @@
 .onas {
     font-size: 24px;
     font-family:  Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    text-align: justify;
 }
 @media (max-width: 768px) {
 .aboutus {
@@ -23,7 +26,8 @@
 
 }}
 .obrazek {
-    width: 50vw;
+  padding-top: 30px;
+    width: 30vw;
     height: 20vw;
 }
 @media (max-width: 768px) {

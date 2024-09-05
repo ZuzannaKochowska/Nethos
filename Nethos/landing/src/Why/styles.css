@@ -1,0 +1,25 @@
+.why {
+    text-align: center;
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #98BE13;
+    margin-top: 50px;
+}
+.lista {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:block;
+    padding: 20px;                   /* Odstęp wewnętrzny w kolumnie */
+    background-color: #b1b1b3;       /* Tło kolumny */
+    border-radius: 8px;              /* Zaokrąglone rogi */
+    color: white;
+}
+.button {
+    display:block;
+    justify-content: center;
+    background-color:#98BE13;
+    color: white;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+    
+}

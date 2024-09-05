@@ -1,12 +1,16 @@
 
 import './App.css';
 import { Headline } from './Headline';
+import { Services } from './Services';
+import { Why } from './Why';
 
 function App() {
   return (
     <div className="App">
-      Hello
+      
       <Headline />
+      <Services />
+      <Why />
     </div>
   );
 }

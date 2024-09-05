@@ -1,0 +1,30 @@
+.uslugi {
+    text-align: center;
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #98BE13;
+    margin-top: 50px;
+}
+.columns {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;  /* Przestrzeń między kolumnami */
+    gap: 20px;                       /* Odstęp między kolumnami */
+    padding: 20px;                   /* Wewnętrzny odstęp */
+  }
+  
+  .column {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex: 1;                         /* Równy podział kolumn */
+    padding: 20px;                   /* Odstęp wewnętrzny w kolumnie */
+    background-color: #b1b1b3;       /* Tło kolumny */
+    border-radius: 8px;              /* Zaokrąglone rogi */
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .columns {
+      flex-direction: column;        /* Kolumny stają się wierszami na małych ekranach */
+    }
+  }
+  

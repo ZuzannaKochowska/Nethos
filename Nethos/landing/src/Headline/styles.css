@@ -1,0 +1,74 @@
+.logo {
+    width: 300px;
+    height: 100px;
+}
+.tekst {
+    /* Wyśrodkowanie tekstu w poziomie */
+    text-align: center;
+    color:#4a4a4a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    
+    font-size: clamp(0.7rem, 1.8vw, 2.5rem);
+    
+    /* Wyśrodkowanie w pionie i poziomie */
+    display:flex;
+     /* Wyśrodkowanie poziome */
+          
+    
+    /* Ustawienia kontenera */
+    height: 50vh;            /* Wysokość pełnego ekranu (opcjonalnie) */
+    padding: 0px 20px;          /* Ograniczenie do responsywnej przestrzeni */
+  
+    /* Responsywność */
+            /* Wielkość czcionki responsywna */
+    line-height: 1.3;         /* Wysokość linii */
+    max-width: 830px;         /* Maksymalna szerokość tekstu */
+    
+    /* Dodaj margines do wyrównania wewnętrznego */
+    margin: 0px 0 50px 200px;
+  }
+  
+  @media (max-width: 768px) {
+    .tekst {
+      font-size: 2.0vw;      /* Mniejsza czcionka dla urządzeń mobilnych */
+      margin: 0px 0px  0px 0px;
+    }
+  }
+  @media (max-width: 480px) {
+    .text {
+      font-size: 2vw; 
+      margin: 0px 0px  0px 0px;
+    }}
+  .background {
+    /* Ustawienie zdjęcia jako tło */
+    background-image: url('../Images/blank.jpg');
+    background-size: cover;       /* Dopasowanie tła do rozmiaru okna */
+    background-position: center;  /* Ustawienie pozycji tła */
+    background-repeat: no-repeat; /* Zablokowanie powtarzania obrazu */
+    box-shadow: inset;
+    
+    /* Pełna wysokość okna */
+    height: 100vh;
+    
+    /* Centrowanie treści w środku */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Dodatkowy padding dla wygody */
+    padding: 20px;
+    
+    /* Opcjonalnie dodaj nakładkę półprzezroczystą dla czytelności tekstu */
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Czarna półprzezroczysta nakładka */
+  }
+

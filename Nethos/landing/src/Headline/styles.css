@@ -6,10 +6,10 @@
     /* Wyśrodkowanie tekstu w poziomie */
     text-align: center;
     color:#4a4a4a;
-    font-family: Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight:bold;
     
-    font-size: clamp(1.2rem, 1.8vw, 2.5rem);
+    font-size: clamp(0.7rem, 1.8vw, 2.5rem);
     
     /* Wyśrodkowanie w pionie i poziomie */
     display:flex;
@@ -31,13 +31,13 @@
   
   @media (max-width: 768px) {
     .tekst {
-      font-size: 2.5vw;      /* Mniejsza czcionka dla urządzeń mobilnych */
+      font-size: 2.0vw;      /* Mniejsza czcionka dla urządzeń mobilnych */
       margin: 0px 0px  0px 0px;
     }
   }
   @media (max-width: 480px) {
     .text {
-      font-size: 3vw; 
+      font-size: 2vw; 
       margin: 0px 0px  0px 0px;
     }}
   .background {
@@ -46,6 +46,7 @@
     background-size: cover;       /* Dopasowanie tła do rozmiaru okna */
     background-position: center;  /* Ustawienie pozycji tła */
     background-repeat: no-repeat; /* Zablokowanie powtarzania obrazu */
+    box-shadow: inset;
     
     /* Pełna wysokość okna */
     height: 100vh;

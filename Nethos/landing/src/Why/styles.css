@@ -56,3 +56,53 @@
     transform: scale(1.05);     /* Delikatne powiększenie przycisku */
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Cień przy hover */
 }
+.contact-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width: 480px) {
+    .contact-form {
+        text-align: center;
+
+    }
+}
+
+.contact-form div {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #98BE13;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #7ca010;
+}

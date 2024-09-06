@@ -1,6 +1,18 @@
 .logo {
-    width: 300px;
-    height: 100px;
+    width: 250px;
+    height: 80px;
+    position: sticky;
+}
+.header {
+    position: fixed;           /* Ustawienie nagłówka jako fixed */
+    top: 0;                    /* Przyklejenie do górnej krawędzi */
+    left: 0;                   /* Przyklejenie do lewej krawędzi */
+    width: 100%;               /* Nagłówek zajmuje pełną szerokość */
+    background-color: #fff;
+    z-index: 1000;             /* Ustawienie z-index, aby nagłówek był nad resztą treści */
+    padding: 0px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
 }
 .tekst {
     /* Wyśrodkowanie tekstu w poziomie */

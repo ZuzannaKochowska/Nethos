@@ -5,6 +5,18 @@
     color: #98BE13;
     margin-top: 50px;
 }
+@media(max-width: 768px) {
+  .uslugi {
+      font-size: 5.0vw;
+      
+  }
+}
+@media(max-width: 480px) {
+  .uslugi {
+      font-size: 7.0vw;
+
+  }
+}
 .columns {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;

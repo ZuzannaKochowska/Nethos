@@ -8,6 +8,7 @@
     justify-content:center;  
     gap: 20px;                       
     padding: 20px;
+    
 
 }
 .client {
@@ -15,7 +16,7 @@
     display: flex;
     font-style: italic;
     text-align: justify;
-    flex-direction: column;  /* Ułóż zawartość pracownika pionowo */
+    flex-direction: column;  
     align-items: center;       
     padding: 40px 40px 0px 40px;                  
     background-color: #ffffff;
@@ -26,13 +27,21 @@
     box-shadow: 0px 0px 25px -6px rgba(66, 68, 90, 0.45);
 }
 @media(max-width: 768px) {
-    .client {
+    .clients {
         flex-direction: column;
+        align-items: center;   
+    }
+    .client {
+        width: 80%; 
     }
 }
 @media(max-width: 480px) {
-    .client {
+    .clients {
         flex-direction: column;
+        align-items: center;
+    }
+    .client {
+        width: 100%;
     }
 }
 .polecenie {
@@ -53,9 +62,9 @@
 }
 .button-container {
     display: flex;
-    justify-content: center;  /* Wyśrodkowanie w poziomie */
-    align-items: center;      /* Wyśrodkowanie w pionie */
-    height: 10vh;            /* Sprawia, że kontener zajmuje pełną wysokość okna */
+    justify-content: center;  
+    align-items: center;      
+    height: 10vh;            
 }
 .button {
     background-color: #98BE13;
@@ -64,11 +73,54 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px;
     border: none;
-    border-radius: 8px;   /* Zaokrąglone rogi przycisku */
+    border-radius: 8px;   
     cursor: pointer;
 }
 .button:hover {
-    background-color: #009FE3;  /* Zmiana koloru tła przy najechaniu */
-    transform: scale(1.05);     /* Delikatne powiększenie przycisku */
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Cień przy hover */
+    background-color: #009FE3;  
+    transform: scale(1.05);     
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); 
+}
+.contact-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form div {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #98BE13;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #7ca010;
 }

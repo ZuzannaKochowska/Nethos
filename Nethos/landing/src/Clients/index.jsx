@@ -1,9 +1,15 @@
 import './styles.css'
+import { useState } from 'react';
 import Asper from '../Images/Asper.jpg';
 import Workitout from '../Images/Workitout.jpg';
 import techno from '../Images/techno.jpg';
 
 export function Clients() {
+    const [isFormVisible, setFormVisible] = useState(false);
+
+    const handleButtonClick = () => {
+        setFormVisible(!isFormVisible); // Zmienia widoczność formularza
+    };
     return(
         <div>
             <div className='why'>Poznaj naszych zadowolonych klientów! </div>
@@ -24,7 +30,26 @@ export function Clients() {
             </div>
         </div>
         <div className='button-container'>
-        <button className="button">DOŁĄCZ DO NICH!</button>
+        <button className="button" onClick={handleButtonClick}>DOŁĄCZ DO NICH!</button>
+        </div>
+        <div>
+       {isFormVisible && (
+                <form className="contact-form">
+                    <div>
+                        <label htmlFor="name">Imię:</label>
+                        <input type="text" id="name" name="name" />
+                    </div>
+                    <div>
+                        <label htmlFor="email">Email:</label>
+                        <input type="email" id="email" name="email" />
+                    </div>
+                    <div>
+                        <label htmlFor="message">Wiadomość:</label>
+                        <textarea id="message" name="message" />
+                    </div>
+                    <button type="submit">Wyślij</button>
+                </form>
+            )}
         </div>
         </div>
     )

@@ -32,11 +32,15 @@
 }
 @media (max-width: 768px) {
     .obrazek {
+      width: 30vw;
+      height: 20vw;
       flex-direction: column;  
     }
   }
   @media (max-width: 480px) {
     .obrazek {
+      width: 80vw;
+      height: 40vw;
       flex-direction: column;  
     }
   }
